@@ -5,8 +5,8 @@
 **Remote URL:** `git@github.com:vedheesh84/ros2-knowledge-ecosystem.git`  
 **Default Branch:** `main`  
 **Maintainer / Author:** `vedheesh84 <vedheeshbkr@gmail.com>`  
-**Local Path:** `02 — Domains/ROS2` (inside `Intelligent Systems Knowledge Ecosystem`)  
-**Parent Workspace:** `/media/ved/DATA/Intelligent Systems Knowledge Ecosystem`  
+**Local Path:** `03 — Projects & Experiments (10 Modular Projects)/ROS2` (inside `Intelligent Systems Engineering Workspace`)  
+**Parent Workspace:** `/media/ved/DATA/Intelligent Systems Engineering Workspace`  
 
 ---
 
@@ -19,7 +19,7 @@ The **ROS2 Domain** represents an expansive, production-grade robotics codebase 
 - Multiple custom robot URDF/Xacro descriptions and simulation worlds;
 - A 25-article canonical curriculum and engineering audit reports.
 
-While it resides physically inside `02 — Domains/ROS2` within the larger **Intelligent Systems Knowledge Ecosystem**, it is intentionally configured as its own **self-contained Git repository**. This architecture ensures:
+While it resides physically inside `03 — Projects & Experiments (10 Modular Projects)/ROS2` within the larger **Intelligent Systems Engineering Workspace**, it is intentionally configured as its own **self-contained Git repository**. This architecture ensures:
 1. **Separation of Concerns:** Robotics code, build configurations, and launch orchestration are decoupled from founder operations, general venture planning, and other high-level ecosystem notes.
 2. **Targeted CI/CD & Testing:** Automated testing (e.g., GitHub Actions running `colcon test`, `ament_flake8`, `ament_cppcheck`, and Gazebo headless simulation tests) can run specifically on robotics packages without triggering on non-code files.
 3. **Clean Versioning & Tagging:** Semantic versions and release tags (e.g., `v1.0.0-turtlebot-kit`) apply directly to the robotics stack.
@@ -32,7 +32,7 @@ While it resides physically inside `02 — Domains/ROS2` within the larger **Int
 The repository is organized into distinct functional layers:
 
 ```text
-02 — Domains/ROS2/
+03 — Projects & Experiments (10 Modular Projects)/ROS2/
 ├── .git/                                   # Git repository root & history
 ├── .gitignore                              # Comprehensive ROS2/Colcon build exclusion rules
 ├── README.md                               # Primary domain entry point and collection catalog
@@ -94,7 +94,7 @@ The repository is organized into distinct functional layers:
 ### 3.1 Initial Commit Baseline
 The repository baseline was established on **October 5, 2026**:
 * **Commit Hash:** `87d4bb4`
-* **Commit Subject:** `feat(ros2): initialize ROS2 Knowledge Ecosystem repository`
+* **Commit Subject:** `feat(ros2): initialize ROS2 Engineering Workspace repository`
 * **Scope:** 2,988 tracked files covering all 8 learning kits, active workspaces, CAD models, and curriculum articles.
 
 ### 3.2 Git Remote Details
@@ -104,7 +104,7 @@ The repository baseline was established on **October 5, 2026**:
 
 To inspect the configuration locally:
 ```bash
-git -C "/media/ved/DATA/Intelligent Systems Knowledge Ecosystem/02 — Domains/ROS2" remote -v
+git -C "/media/ved/DATA/Intelligent Systems Engineering Workspace/03 — Projects & Experiments (10 Modular Projects)/ROS2" remote -v
 ```
 
 ---
@@ -141,7 +141,7 @@ Follow the interactive prompt (choose SSH or HTTPS protocol, and authenticate vi
 ### 4.3 Pushing the Initial Commit & Setting Upstream Tracking
 To push the initial commit and link the local `main` branch to GitHub:
 ```bash
-cd "/media/ved/DATA/Intelligent Systems Knowledge Ecosystem/02 — Domains/ROS2"
+cd "/media/ved/DATA/Intelligent Systems Engineering Workspace/03 — Projects & Experiments (10 Modular Projects)/ROS2"
 git push -u origin main
 ```
 *The `-u` (or `--set-upstream`) flag links local `main` to `origin/main` so future operations only require `git push` and `git pull`.*
@@ -269,7 +269,7 @@ git push origin v1.0.0-turtlebot-kit
 
 | Symptom / Error | Root Cause | Solution |
 |---|---|---|
-| `fatal: not a git repository` | Executed `git` outside `02 — Domains/ROS2` (e.g. in workspace root). | Run commands from within `/media/ved/DATA/Intelligent Systems Knowledge Ecosystem/02 — Domains/ROS2`. |
+| `fatal: not a git repository` | Executed `git` outside `03 — Projects & Experiments (10 Modular Projects)/ROS2` (e.g. in workspace root). | Run commands from within `/media/ved/DATA/Intelligent Systems Engineering Workspace/03 — Projects & Experiments (10 Modular Projects)/ROS2`. |
 | `Permission denied (publickey)` | SSH key not loaded or not registered on GitHub. | Run `ssh-add ~/.ssh/id_ed25519` and verify via `ssh -T git@github.com`. |
 | `Untracked build/ or install/` | Sub-workspace built without root `.gitignore` coverage. | Ensure `.gitignore` covers subfolder builds or clean via `rm -rf build install log`. |
 | `error: failed to push some refs` | Remote contains commits not present locally. | Run `git pull --rebase origin main` before pushing. |

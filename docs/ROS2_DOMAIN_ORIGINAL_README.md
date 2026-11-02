@@ -83,7 +83,7 @@ python3 "Ros2 learning kits/ros2_arm_kit/scripts/test_arm_kit.py"
 
 ## Knowledge & Research Bridge (Obsidian 2nd-Brain Vault)
 
-Personal insights, atomic code snippets, and conceptual syntheses derived from this codebase are maintained in the Obsidian Vault (`ved`) per the [Obsidian & Knowledge Ecosystem Bridge Protocol](<../../01 — Documentation System/08 — Obsidian & Knowledge Ecosystem Bridge Protocol.md>):
+Personal insights, atomic code snippets, and conceptual syntheses derived from this codebase are maintained in the Obsidian Vault (`ved`) per the [Obsidian & Engineering Workspace Bridge Protocol](<../../01 — Documentation System/08 — Obsidian & Engineering Workspace Bridge Protocol.md>):
 
 - **Project MOC Hub:** [Project MOC - ROS 2 Learning Kit](file:///e:/app%20data/obsidian/ved/05_MOCs/Project_MOCs/Project%20MOC%20-%20ROS%202%20Learning%20Kit.md) (`obsidian://open?vault=ved&file=05_MOCs%2FProject_MOCs%2FProject%20MOC%20-%20ROS%202%20Learning%20Kit`)
 - **Primary Domain MOC:** [MOC - Robotics & Autonomous Systems](file:///e:/app%20data/obsidian/ved/05_MOCs/Domain_MOCs/MOC%20-%20Robotics%20&%20Autonomous%20Systems.md)

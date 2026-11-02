@@ -67,5 +67,5 @@ ros2 launch drone_bringup swarm_3drones.launch.py
 ros2 run swarm_demos demo_04_dynamic_formation
 ros2 run swarm_demos demo_06_swarm_area_coverage
 ```
-- Workspace Reference: [`02 — Domains/ROS2/UAV_ws/README.md`](../../UAV_ws/README.md)
+- Workspace Reference: [`03 — Projects & Experiments/)
 - Swarm Coordination Reference: [`ros2_drone_swarm_kit/resources/swarm_coordination_principles.md`](../../Ros2%20learning%20kits/ros2_drone_swarm_kit/resources/swarm_coordination_principles.md)

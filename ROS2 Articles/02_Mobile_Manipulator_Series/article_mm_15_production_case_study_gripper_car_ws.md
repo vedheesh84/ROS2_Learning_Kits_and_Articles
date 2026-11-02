@@ -63,7 +63,7 @@ gripper_car_ws/src/
 #### 1. Building and Launching the Physical Robot Workspace:
 ```bash
 # Build gripper_car_ws
-cd "02 — Domains/ROS2/Mobile_Manipulator_ws/gripper_car_ws"
+cd "03 — Projects & Experiments/
 colcon build --symlink-install
 source install/setup.bash
 
@@ -73,4 +73,4 @@ ros2 launch robot_bringup sim_robot.launch.py
 # Launch autonomous pick-and-place application
 ros2 launch robot_bringup pick_and_place.launch.py map:=/path/to/map.yaml
 ```
-- Workspace README: [`02 — Domains/ROS2/Mobile_Manipulator_ws/gripper_car_ws/README.md`](file:///e:/Intelligent%20Systems%20Knowledge%20Ecosystem/02%20—%20Domains/ROS2/Mobile_Manipulator_ws/gripper_car_ws/README.md)
+- Workspace README: [`03 — Projects & Experiments/)

@@ -242,7 +242,7 @@ ros2 topic echo /sensor_data
 
 #### 2. Launch the Level 1 Capstone System
 ```bash
-cd "02 — Domains/ROS2/AMR_ws/turtlebot3_ws"
+cd "03 — Projects & Experiments/
 source install/setup.bash
 export TURTLEBOT3_MODEL=burger
 

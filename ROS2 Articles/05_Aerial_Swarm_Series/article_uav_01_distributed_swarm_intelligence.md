@@ -58,4 +58,4 @@ A single drone is bounded by what its own onboard sensors can physically see; in
 ros2 launch drone_bringup swarm_3drones.launch.py
 ```
 - Kit Overview: [`ros2_drone_swarm_kit/README.md`](../../Ros2%20learning%20kits/ros2_drone_swarm_kit/README.md)
-- Domain Workspace: [`02 — Domains/ROS2/UAV_ws/README.md`](../../UAV_ws/README.md)
+- Domain Workspace: [`03 — Projects & Experiments/)

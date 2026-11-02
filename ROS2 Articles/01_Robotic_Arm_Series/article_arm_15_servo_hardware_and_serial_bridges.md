@@ -93,7 +93,7 @@ Before connecting physical servos, verify the entire communication pipeline usin
 
 ```bash
 # Terminal 1: Launch Pseudo-Hardware Serial Emulator
-python3 "02 — Domains/ROS2/Ros2 learning kits/ros2_arm_kit/scripts/pseudo_arm_emulator.py" --port /tmp/tty_arm_fake
+python3 "03 — Projects & Experiments/ learning kits/ros2_arm_kit/scripts/pseudo_arm_emulator.py" --port /tmp/tty_arm_fake
 
 # Terminal 2: Launch Hardware Bridge with Robot Description
 ros2 launch arm_bringup arm_hardware.launch.py serial_port:=/tmp/tty_arm_fake
